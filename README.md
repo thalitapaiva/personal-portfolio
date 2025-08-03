@@ -5,14 +5,13 @@
 
 ## English
 
-This is an interactive personal portfolio website, developed with HTML, CSS, and JavaScript. The design features a Star Wars-inspired theme with a lightsaber toggle for dark/light mode. The site is fully responsive and focuses on user experience.
+This is an interactive personal portfolio website, developed with HTML, CSS, and JavaScript. The site is fully responsive and focuses on user experience.
 
 ### Features
 
 - **Responsive Design**: Adapts to different screen sizes
 - **Smooth Navigation**: Smooth scrolling to different sections
 - **Animations**: Elements animate when entering the viewport
-- **Dark/Light Mode**: Star Wars lightsaber toggle (blue for light, red for dark)
 - **Direct Contact**: Email link when clicking "Contact Me"
 
 ### Structure
@@ -41,14 +40,13 @@ Simply open the `index.html` file in any modern web browser.
 
 ## Português
 
-Este é um site de portfólio pessoal interativo, desenvolvido com HTML, CSS e JavaScript. O design apresenta um tema inspirado em Star Wars com um sabre de luz para alternar entre modo claro/escuro. O site é totalmente responsivo e focado na experiência do usuário.
+Este é um site de portfólio pessoal interativo, desenvolvido com HTML, CSS e JavaScript. O site é totalmente responsivo e focado na experiência do usuário.
 
 ### Características
 
 - **Design Responsivo**: Adaptável a diferentes tamanhos de tela
 - **Navegação Suave**: Rolagem suave para as diferentes seções
 - **Animações**: Elementos animados ao entrar na viewport
-- **Modo Claro/Escuro**: Alternador de sabre de luz de Star Wars (azul para claro, vermelho para escuro)
 - **Contato Direto**: Link para email direto ao clicar em "Contact Me"
 
 ### Estrutura
