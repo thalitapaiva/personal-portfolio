@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Thalita</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fas fa-laptop-code"></i></div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="hero">
+        <div class="container">
+            <h1>Hello, I'm <span class="highlight">Thalita</span></h1>
+            <p class="subtitle">Information Systems Student at UFES - Alegre Campus</p>
+            <p class="bio">I'm currently studying to become a Full Stack Developer. My passion for technology drives me to learn new skills and create innovative solutions. I enjoy building responsive websites and applications that provide great user experiences.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" id="portfolio-project">
+                    <div class="project-img"></div>
+                    <h3>Personal Portfolio</h3>
+                    <p>My professional portfolio developed with HTML, CSS, and JavaScript, showcasing my projects and skills.</p>
+                    <a href="#" class="btn small" onclick="showProjectDetails('portfolio', 'Personal Portfolio', 'This is the website you are seeing right now! Developed with pure HTML, CSS, and JavaScript, this portfolio was created to showcase my projects and skills in an interactive and responsive way. It includes a Star Wars-themed light/dark mode and modern design with visual effects.')">View Details</a>
+                </div>
+                <div class="project-card" id="pokedex-project">
+                    <div class="project-img"></div>
+                    <h3>Pokédex</h3>
+                    <p>Web application that simulates a Pokédex, using HTML, CSS, and JavaScript with API consumption.</p>
+                    <a href="https://github.com/thalitapaiva/pokedex" target="_blank" class="btn small" onclick="showProjectDetails('pokedex', 'Pokédex', 'Project developed to practice HTML, CSS, and JavaScript with YouTube tutorials. This application simulates a Pokédex, allowing users to search and view information about different Pokémon through the PokeAPI. It includes details such as type, abilities, and statistics for each Pokémon.')">View Details</a>
+                </div>
+                <div class="project-card" id="numero-secreto-project">
+                    <div class="project-img"></div>
+                    <h3>Secret Number</h3>
+                    <p>Voice-based guessing game developed during an Alura course, using JavaScript and Web Speech API.</p>
+                    <a href="https://github.com/thalitapaiva/numerosecreto-alura" target="_blank" class="btn small" onclick="showProjectDetails('numero-secreto', 'Secret Number', 'Project made with Alura through the JavaScript programming logic course. This interactive game allows users to guess a random number using voice commands, thanks to integration with the Web Speech API. The project demonstrates concepts of DOM manipulation, events, and web APIs.')">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <h2>Technologies</h2>
+            <div class="tech-icons">
+                <div class="tech-icon">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Interested in working together? Get in touch!</p>
+            <div class="contact-options">
+                <a href="mailto:thfonp@gmail.com" class="contact-btn">
+                    <i class="fas fa-envelope"></i>
+                    Email
+                </a>
+                <a href="https://www.linkedin.com/in/thalita-paiva-1301a122b/" class="contact-btn">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/thalitapaiva" class="contact-btn">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+                <a href="https://www.instagram.com/thalita_paivaa" class="contact-btn">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-centered">
+            <p>&copy; 2025 Thalita. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:thfonp@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
